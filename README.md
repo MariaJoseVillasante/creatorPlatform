@@ -28,3 +28,8 @@ yarn add @tailwindcss/forms
 
 rails new creators -c tailwind -j esbuild -d postgresql -T --main
 
+
+rails dbconsole
+\d
+\d events
+\dT+
