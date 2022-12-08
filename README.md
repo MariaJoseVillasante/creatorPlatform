@@ -33,3 +33,11 @@ rails dbconsole
 \d
 \d events
 \dT+
+
+
+procfile.dev
+
+brew install redis
+brew services start redis
+
+EDITOR="atom --wait" rails credentials:edit

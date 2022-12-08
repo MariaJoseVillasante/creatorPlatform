@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   theme: {
     extend: {
@@ -8,7 +10,6 @@ module.exports = {
     }
   },
   plugins: [
-    // https://yarnpkg.com/package/@tailwindcss/forms
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
   ],
