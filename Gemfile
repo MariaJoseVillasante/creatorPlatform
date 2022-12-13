@@ -72,6 +72,6 @@ end
 
 gem "devise", "~> 4.8"
 
-gem "sidekiq", "~> 6.5"
+gem "sidekiq"
 
 gem "stripe", "~> 7.0"

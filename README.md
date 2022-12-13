@@ -41,3 +41,10 @@ brew install redis
 brew services start redis
 
 EDITOR="atom --wait" rails credentials:edit
+
+stripe listen --forward-to localhost:3000/webhooks/stripe
+stripe listen --forward-to localhost:3000/webhooks/stripe --forward-connect-to localhost:3000/webhooks/stripe
+
+https://www.youtube.com/watch?v=M1_JCZxhlRA&list=PLS6F722u-R6IJfBrIRx3a2SBkAL4vUp2p&index=9
+
+min 14
